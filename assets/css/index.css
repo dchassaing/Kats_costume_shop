@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+
+h1{
+  color: #323232;
+  font: 700 1.875em 'PT Sans Narrow', sans-serif;
+}
+
+#h1GetSome{
+  text-align: center;
+}
+
+#h3Description{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: left;
+    line-height: 20px;
+}
+
+nav h1{
+  display: inline-block;
+}
+
+nav p{
+  display: inline-block;
+  font-size: 18px;
+  line-height: 39px;
+  float: right;
+  margin: 24.9px;
+}
+
+h2{
+  color: #00897f;
+  font: 1.5em 'PT Sans Narrow', sans-serif;
+  padding-bottom: 25px;
+}
+
+.section{
+  color: #ffffff;
+}
+
+.about-box-Kat,
+.about-box-Mavis{
+  background-color: lightgrey;
+  display: inline-block;
+  width:25%;
+  padding: 30px;
+}
+
+
+.about-box{
+  width: 100%;
+  text-align: center;
+}
+
+h3{
+  color: #323232;
+  font: 1em 'PT Serif', serif;
+}
+
+p {
+  color: #323232;
+  font: .875em 'PT Serif', serif;
+}
+
+.address {
+  color: #f26522;
+  font: 1em 'PT Serif', 700;
+}
+
+#store-address {
+  color:
+}
+a {
+  color: #f26522;
+}
+
+
+
+/* On devices wider than 660px */
+@media(min-width: 660px) {
+}
+
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+}
