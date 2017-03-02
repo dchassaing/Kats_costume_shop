@@ -46,13 +46,18 @@ h2{
   background-color: lightgrey;
   display: inline-block;
   width:25%;
-  padding: 30px;
+  padding: 2%;
+  vertical-align: top;
 }
 
+.about-box-Kat + .about-box-Mavis{
+  margin: 30px;
+}
 
 .about-box{
   width: 100%;
   text-align: center;
+  padding: 6%;
 }
 
 h3{
@@ -96,31 +101,50 @@ p {
   font: 1em 'PT Serif', 700;
 }
 
-#store-address {
-  color:
-}
-
-a {
+.a {
   color: #f26522;
 }
 
 .shop-map{
   width: 100%;
+  display: block;
 }
 
 footer{
   background-color: #00897f;
 }
+
 #footer-h1{
   text-align: center;
   color: #FFFFFF;
+  margin: 0;
 }
 
+
+@media(max-width: 600px) {
+
+  .about-box{
+    margin: 0 auto;
+  }
+  .about-box-Kat , .about-box-Mavis{
+    display: block;
+    margin: 0 auto;
+  }
+  .about-box-Kat + .about-box-Mavis{
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
 
+@media(min-width: 900px) {
+  /*.about-box{
+    width: 40%;
+  }*/
+}
 /* On devices wider than 940px */
 @media(min-width: 940px) {
 }
