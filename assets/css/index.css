@@ -12,6 +12,7 @@ h1{
 }
 
 #h3Description{
+    font-size: ;
     margin-left: 300px;
     margin-right: 300px;
     text-align: left;
@@ -64,6 +65,32 @@ p {
   font: .875em 'PT Serif', serif;
 }
 
+.pictures-of-cats{
+  text-align: center;
+}
+
+.cat-in-hat, .cat-in-glasses, .cat-in-coat{
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.get-in-touch-box-business-hours,
+.get-in-touch-box-contact-info{
+  background-color: white;
+  display: inline-block;
+  width:25%;
+  padding: 30px;
+}
+
+
+.get-in-touch-box{
+  width: 100%;
+  text-align: center;
+  background-color: lightgrey;
+  color: #323232;
+}
+
+
 .address {
   color: #f26522;
   font: 1em 'PT Serif', 700;
@@ -72,10 +99,22 @@ p {
 #store-address {
   color:
 }
+
 a {
   color: #f26522;
 }
 
+.shop-map{
+  width: 100%;
+}
+
+footer{
+  background-color: #00897f;
+}
+#footer-h1{
+  text-align: center;
+  color: #FFFFFF;
+}
 
 
 /* On devices wider than 660px */
