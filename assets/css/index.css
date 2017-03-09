@@ -137,14 +137,19 @@ footer{
 
   .about-box{
     margin: 0 auto;
+    width: 100%;
   }
   .about-box-Kat , .about-box-Mavis{
     display: block;
     margin: 0 auto;
+    width: 80%;
+    height: auto;
   }
   .about-box-Kat + .about-box-Mavis{
     margin: 0 auto;
     margin-top: 20px;
+    width: 80%;
+    height: auto;
   }
 }
 
