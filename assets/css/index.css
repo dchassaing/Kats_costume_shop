@@ -91,7 +91,9 @@ p {
   background-color: white;
   display: inline-block;
   width:25%;
-  padding: 30px;
+  /*padding: 30px;*/
+  height: 220px;
+  vertical-align: top;
 }
 
 
