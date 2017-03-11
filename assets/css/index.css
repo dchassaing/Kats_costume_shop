@@ -79,6 +79,8 @@ p {
 
 .pictures-of-cats{
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .cat-in-hat, .cat-in-glasses, .cat-in-coat{
