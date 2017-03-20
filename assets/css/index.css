@@ -4,8 +4,8 @@ html, body, h1, h2, h3, p {
   padding: 0;
   border: 0;
   margin: 0;
-  font-size: 100%;
   font: inherit;
+  font: 100%;
 }
 html {
   font-size: 62.5%;
@@ -14,20 +14,19 @@ body {
   font-family: "PT Sans Narrow Bold", sans-serif;
   color: #323232;
   max-width: 1230px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   }
 
 h1{
   color: #323232;
   font: 700 1.875em 'PT Sans Narrow', sans-serif;
-  text-align: center;
+  /*text-align: center;*/
 }
 h2{
   color: #00897f;
   font: 1.5em 'PT Sans Narrow', sans-serif;
   padding-bottom: 25px;
   text-align: center;
-  text-transform: capitalize;
 }
 h3{
   color: #323232;
@@ -38,36 +37,23 @@ p {
   font: .875em 'PT Serif', serif;
 }
 
-/*id styles*/
-#h1GetSome{
-  text-align: center;
-}
-#h3Description{
-    width: 40%;
-    margin: 0 auto;
-    text-align: left;
-    line-height: 20px;
-}
-#p-get-in-touch-box-business-hours{
-  line-height: 40px;
-  text-align: left;
-}
-#footer-h1{
-  text-align: center;
-  color: #FFFFFF;
-  margin: 0;
+/*header and nav styles*/
+nav{
+  /*display: inline-block;*/
 }
 
-/*header and nav styles*/
 nav h1{
-  display: inline-block;
+  float: left;
+  margin-left: 0;
 }
+
 nav p{
-  display: inline-block;
   font-size: 18px;
   line-height: 39px;
   float: right;
-  margin: 24.9px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-around;
 }
 
 /*class styles*/
@@ -85,7 +71,7 @@ nav p{
   width:25%;
   padding: 2%;
   vertical-align: top;
-  height: 250px;
+  height: 150px;
 }
 .about-box-Kat + .about-box-Mavis{
   margin-left: 30px;
@@ -112,7 +98,7 @@ nav p{
   display: inline-block;
   width:25%;
   /*padding: 30px;*/
-  height: 220px;
+  height: 120px;
   vertical-align: top;
 }
 .get-in-touch-box{
@@ -135,6 +121,26 @@ nav p{
 
 footer{
   background-color: #00897f;
+}
+
+/*id styles*/
+#h1GetSome{
+  text-align: center;
+}
+#h3Description{
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 20px;
+}
+#p-get-in-touch-box-business-hours{
+  line-height: 40px;
+  text-align: left;
+}
+#footer-h1{
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
 }
 
 @media(max-width: 738px){
